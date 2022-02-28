@@ -2,17 +2,28 @@ package Lesson1;
 
 public class HomeWorkApp {
     public static void main(String[] args) {
-        printThreeWord();
+        System.out.println("Класс HomeWorkApp создан");
         System.out.println("----------Задание 1 Выполнено----------");
-        checkSumSign();
+
+        printThreeWord();
+
         System.out.println("----------Задание 2 Выполнено----------");
-        printColor();
+
+        checkSumSign();
+
         System.out.println("----------Задание 3 Выполнено----------");
-        compareNumbers();
+
+        printColor();
+
         System.out.println("----------Задание 4 Выполнено----------");
+
+        compareNumbers();
+
+        System.out.println("----------Задание 5 Выполнено----------");
     }
 
     public static void printThreeWord() {
+        System.out.println("\nOrange \nBanana \nApple \n------- или -------");
         System.out.println("Orange");
         System.out.println("Banana");
         System.out.println("Apple");
@@ -22,6 +33,7 @@ public class HomeWorkApp {
         int a = 20;
         int b = 50;
         int c = a + b;
+        System.out.println( c + " >= 0");
         if (c >= 0) {
             System.out.println("Сумма положительная");
         } else {
