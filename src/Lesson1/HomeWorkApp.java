@@ -2,24 +2,10 @@ package Lesson1;
 
 public class HomeWorkApp {
     public static void main(String[] args) {
-        System.out.println("Класс HomeWorkApp создан");
-        System.out.println("----------Задание 1 Выполнено----------");
-
         printThreeWord();
-
-        System.out.println("----------Задание 2 Выполнено----------");
-
         checkSumSign();
-
-        System.out.println("----------Задание 3 Выполнено----------");
-
         printColor();
-
-        System.out.println("----------Задание 4 Выполнено----------");
-
         compareNumbers();
-
-        System.out.println("----------Задание 5 Выполнено----------");
     }
 
     public static void printThreeWord() {
